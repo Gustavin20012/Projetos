@@ -69,28 +69,25 @@ main {
 
 #sobre {
     display: inline-block;
-    border: 5px solid black;
-    /*margin: -123px 5px 5px 142px;*/
 
 }
 
 #sobre > h2 {
-    border: 5px solid black;
     margin: 5px 5px 5px 5px;
     height: 25px;
+    padding: 10px;
+    background-image: linear-gradient(to right, var(--cor0), transparent);
+    border-radius: 5px 5px 0px 0px;
 
 }
 
 #sobre > p {
     text-align: justify;
     margin: 5px 5px 5px 5px;
-    border: 5px solid black;
     height: 104px;
 
     
 }
-
-
 
 main > div {
     margin-top: 10px;
@@ -103,4 +100,5 @@ footer {
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
+    padding-bottom: 22px;
 }
