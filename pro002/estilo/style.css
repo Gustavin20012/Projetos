@@ -89,14 +89,22 @@ main {
     
 }
 
-.imagens > 
+.imagens > div#android {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
 
 .imagens > div#cordel {
-    width: 500px;
-    height: 500px;
+    width: 200px;
+    height: 200px;
     display: inline-block;
-    background:url(../imagens/cordel_modenor.JPG);
-    background-repeat: no-repeat;
+}
+
+.imagens > div#login {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
 }
 
 main > div {
