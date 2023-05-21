@@ -89,6 +89,16 @@ main {
     
 }
 
+.imagens > 
+
+.imagens > div#cordel {
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background:url(../imagens/cordel_modenor.JPG);
+    background-repeat: no-repeat;
+}
+
 main > div {
     margin-top: 10px;
 }
