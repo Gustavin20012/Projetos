@@ -12,6 +12,10 @@ Grandes telas: acima de 1200px
 @media screen and (min-width: 500px) and (max-width: 550px) {
     /*CONFIGURAÇÕES PARA CELULAR */
 
+.imagens {
+    text-align: center;
+}
+
 .imagens > div#android {
     margin: 15px 15px 15px 0px;
     display: inline-block;
@@ -34,8 +38,12 @@ Grandes telas: acima de 1200px
     
 }
 
-@media screen and (min-width: 550px) and (max-width: 768px) {
+@media screen and (min-width: 550px) and (max-width: 760px) {
     /*CONFIGURAÇÕES PARA TABLET */
+
+.imagens {
+    text-align: center;
+}
     
 .imagens > div#android {
     margin: 15px 15px 15px 10px;
@@ -59,8 +67,55 @@ Grandes telas: acima de 1200px
 
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 761px) and (max-width: 870px) {
     /*CONFIGURAÇÕES PARA DESKTOP*/
 
 
+.imagens > div#android {
+    margin: 15px 10px 15px 5px;
+    display: inline-block;
+}
+
+.imagens > div#cordel {
+    margin: 15px 10px 15px 15px;
+    display: inline-block;
+}
+
+.imagens > div#login {
+    margin: 15px 15px 15px 10px;;
+    display: inline-block;
+}
+
+.imagens > div#analos {
+    margin: 15px 10px 15px 5px;
+    display: inline-block;
+}
+
+}
+
+@media screen and (min-width: 870px){
+
+.imagens {
+    text-align: center;
+}
+
+.imagens > div#android {
+    margin: 15px 10px 15px 5px;
+    display: inline-block;
+}
+    
+.imagens > div#cordel {
+    margin: 15px 10px 15px 15px;
+    display: inline-block;
+}
+    
+.imagens > div#login {
+    margin: 15px 10px 15px 15px;;
+    display: inline-block;
+}
+    
+.imagens > div#analos {
+    margin: 15px 10px 15px 5px;
+    display: inline-block;
+}
 }

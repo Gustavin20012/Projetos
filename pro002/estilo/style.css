@@ -91,34 +91,42 @@ main {
 
 .imagens > div#android {
     width: 200px;
-    height: 150px;
+    height: 154px;
+    padding: 1px;
     display: inline-block;
     margin-left: 10px;
     margin-right: 45px;
-    background-color: green;
+    border: solid black 1px;
+    border-radius: 3px;
 }
 
 .imagens > div#cordel {
     width: 200px;
-    height: 150px;
+    height: 154px;
+    padding: 1px;
     display: inline-block;
     margin-right: 45px;
-    background-color: black;
+    border: solid black 1px;
+    border-radius: 3px;
 }
 
 .imagens > div#login {
     width: 200px;
-    height: 150px;
+    height: 154px;
+    padding: 1px;
     display: inline-block;
     margin-right: 45px;
-    background-color: gray;
+    border: solid black 1px;
+    border-radius: 3px;
 }
 
 .imagens > div#analos {
     width: 200px;
-    height: 150px;
+    height: 153px;
+    padding: 1px;
     display: inline-block;
-    background-color: bisque;
+    border: solid black 1px;
+    border-radius: 3px;
 }
 
 main > div {
