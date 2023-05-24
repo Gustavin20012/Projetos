@@ -92,7 +92,7 @@ main {
 .imagens > div#android {
     width: 200px;
     height: 154px;
-    padding: 1px;
+    padding: 2px;
     display: inline-block;
     margin-left: 10px;
     margin-right: 45px;
@@ -103,7 +103,7 @@ main {
 .imagens > div#cordel {
     width: 200px;
     height: 154px;
-    padding: 1px;
+    padding: 2px;
     display: inline-block;
     margin-right: 45px;
     border: solid black 1px;
@@ -113,7 +113,7 @@ main {
 .imagens > div#login {
     width: 200px;
     height: 154px;
-    padding: 1px;
+    padding: 2px;
     display: inline-block;
     margin-right: 45px;
     border: solid black 1px;
@@ -123,10 +123,14 @@ main {
 .imagens > div#analos {
     width: 200px;
     height: 153px;
-    padding: 1px;
+    padding: 2px;
     display: inline-block;
     border: solid black 1px;
     border-radius: 3px;
+}
+
+.imagens > div > a:hover {
+    background-color: rgba(0, 0, 0, 0.575);
 }
 
 main > div {
